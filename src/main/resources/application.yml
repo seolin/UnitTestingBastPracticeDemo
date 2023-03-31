@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    database-name: unitTesting
+    username: root
+    password: root
+  h2:
+    console:
+      enabled: true
+      settings:
+        trace: true
+        web-allow-others: true
+      path: /h2-console
+
+logging:
+  level:
+    cn:
+      felord: debug
+
+server:
+  port: 8080
