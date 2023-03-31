@@ -12,8 +12,8 @@ public enum ErrorCode implements ErrorCodeConstants {
     /**
      * 通用异常
      */
-    COMMON_ERROR(java.lang.Error.COMMON_ERROR, java.lang.Error.COMMON_ERROR_MSG),
-    PARAMETER_ERROR(java.lang.Error.PARAMETER_ERROR, java.lang.Error.PARAMETER_ERROR_MSG),
+    COMMON_ERROR(Error.COMMON_ERROR, Error.COMMON_ERROR_MSG),
+    PARAMETER_ERROR(Error.PARAMETER_ERROR, Error.PARAMETER_ERROR_MSG),
     ;
 
     private final int code;
